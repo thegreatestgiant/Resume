@@ -1,0 +1,185 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Sean Alter",
+    "label": "Computer Science Student",
+    "email": "Salter3@mail.yu.edu",
+    "phone": "(646) 207-2901",
+    "url": "https://github.com/SeanAlter",
+    "location": {
+      "city": "Valley Stream",
+      "region": "NY",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "thegreatestgiant",
+        "url": "https://github.com/thegreatestgiant"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Shlomo Alter",
+        "url": "https://www.linkedin.com/in/shlomo-alter/"
+      },
+      {
+        "network": "Boot.dev",
+        "username": "Sean Alter",
+        "url": "https://www.boot.dev/u/thegreatestgiant"
+      },
+      {
+        "network": "Macs Live",
+        "username": "Macs Live",
+        "url": "https://github.com/EitanSomething/MacsCommandCenter"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Yeshiva University, Yeshiva College",
+      "area": "Computer Science",
+      "studyType": "B.S.",
+      "startDate": "2025-09",
+      "endDate": "2029-05",
+      "score": "3.8/4.0",
+      "courses": [],
+      "location": "New York, NY",
+      "minor": "Finance",
+      "track": "Distributed Systems Track",
+      "honors": "Dean's List"
+    }
+  ],
+  "work": [
+    {
+      "name": "YU Mac's Live",
+      "position": "Technical Director",
+      "location": "New York, NY",
+      "startDate": "2025-12",
+      "summary": "",
+      "highlights": [
+        "Redesign 10+ React components, reducing operator eye strain during NCAA broadcasts of 7,000+ viewers",
+        "Accelerate team selection 4x (4s to 1s) by overhauling an 80-team dropdown into a React fuzzy-search",
+        "Reduce unsafe 'any' type usage by 86% (139 to 19) across the TypeScript codebase, closing type-safety gaps"
+      ]
+    },
+    {
+      "name": "Yeshiva University – Computer Science Department",
+      "position": "Infrastructure Lead",
+      "location": "New York, NY",
+      "startDate": "2026-05",
+      "endDate": "2026-08",
+      "summary": "",
+      "highlights": [
+        "Delivered an equity trading system with 4 peers, guided by Steven Mauceri, Citi Director",
+        "Architected a GitOps pipeline with FluxCD and k3d, automating 15+ microservice deployments",
+        "Reduced startup failures >80% and boot times >30% via strict database and boot-order dependencies",
+        "Created Makefile tooling for 9 Kubernetes operations, enabling pod management without CLI expertise",
+        "Achieved HA, accelerating failover recovery 4x (40s to 10s) via CloudNativePG and Redis Sentinel",
+        "Optimized throughput for 1,000 users via PGBouncer and database indexing, cutting latency 99% (36s to 350ms)"
+      ]
+    },
+    {
+      "name": "InterSoft Associates",
+      "position": "Software Engineer Intern",
+      "location": "Lynbrook, NY",
+      "startDate": "2024-05",
+      "endDate": "2024-06",
+      "summary": "",
+      "highlights": [
+        "Boosted efficiency by refactoring 3 essential modules of an internal platform, using ASP.NET and SQL"
+      ]
+    },
+    {
+      "name": "ITS Department - DRS High School",
+      "position": "IT Assistant",
+      "location": "Woodmere, NY",
+      "startDate": "2023-09",
+      "endDate": "2024-06",
+      "summary": "",
+      "highlights": [
+        "Provided on-demand technical support for over 10 classrooms and faculty members",
+        "Diagnosed and resolved hardware, software, and connectivity issues"
+      ]
+    },
+    {
+      "name": "DRS Live",
+      "position": "Co-Director",
+      "location": "Woodmere, NY",
+      "startDate": "2022-09",
+      "endDate": "2024-06",
+      "summary": "",
+      "highlights": [
+        "Reestablished livestream operations, led 90%+ of technical events, and recruited/trained successors"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Obligo",
+      "description": "Full-stack financial ledger utilizing a Golang REST API, React/Vite, and PostgreSQL",
+      "startDate": "2026-05",
+      "endDate": "2026-07",
+      "url": "https://github.com/thegreatestgiant/Obligo",
+      "demoUrl": "https://obligo.mk0.pp.ua/",
+      "highlights": [
+        "Built a full-stack financial ledger utilizing a Golang REST API, React/Vite, and PostgreSQL",
+        "Configured infrastructure for monolithic and serverless deployments via Cloudflare and GCP",
+        "Constructed GitHub Action pipeline to build/push Docker images and execute 20+ backend tests",
+        "Achieved zero-downtime deployments and sub-15ms p95 API response times via GCP serverless containers"
+      ],
+      "keywords": ["Golang", "React", "Vite", "PostgreSQL", "Docker", "GCP", "Cloudflare", "GitHub Actions"]
+    },
+    {
+      "name": "Document Store",
+      "description": "Java NoSQL document database utilizing bespoke data structures",
+      "startDate": "2026-01",
+      "endDate": "2026-05",
+      "url": "https://github.com/thegreatestgiant/Document-Store-com1320",
+      "highlights": [
+        "Constructed a Java NoSQL document database utilizing bespoke HashTables, Tries, and MinHeaps",
+        "Implemented a B-Tree persistence manager to offload inactive documents from a MinHeap cache to disk",
+        "Created a state-management system via the Command pattern for multi-level undo/redo operations"
+      ],
+      "keywords": ["Java", "NoSQL", "B-Tree", "HashTable", "Trie", "MinHeap"]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": ["Golang", "Python", "Java", "C", "TypeScript", "SQL", "Lua", "HTML", "CSS"]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "keywords": ["Kubernetes (k3s/k3d)", "Docker", "FluxCD", "GitHub Actions", "GCP", "Cloudflare", "Ansible"]
+    },
+    {
+      "name": "Tools, OS & Frameworks",
+      "keywords": ["Linux (Arch, Ubuntu, Debian)", "Git", "Neovim", "Windows", "React", "Maven"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "SGC Fellow, El Salvador & Guatemala Mission",
+      "position": "Fellow",
+      "startDate": "2026-05",
+      "endDate": "2026-06",
+      "summary": "",
+      "highlights": [
+        "Partnered with local NGOs to support educational and social initiatives impacting 300+ community members",
+        "Directed and co-led youth activities, including English tutoring and DIY crafts, overcoming language barriers"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Hobbies",
+      "keywords": ["Fantasy & Sci-Fi Books", "Webnovels", "Puzzles", "Hiking", "Winter Sports", "Anime", "MTG", "D&D"]
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
+    "version": "v1.0.0",
+    "lastModified": "2026-10-06",
+    "theme": "jsonresume-theme-elegant"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "jsonresume-theme-alter",
+  "version": "1.0.0",
+  "description": "A clean, single-page JSON Resume theme with serif fonts and gold accent rules. Designed for CS/engineering resumes.",
+  "main": "index.js",
+  "keywords": [
+    "jsonresume-theme",
+    "resume",
+    "cv",
+    "serif",
+    "professional",
+    "single-page"
+  ],
+  "author": "Sean Alter",
+  "license": "MIT",
+  "peerDependencies": {
+    "resumed": ">=3.0.0"
+  }
+}
