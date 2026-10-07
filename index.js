@@ -75,14 +75,15 @@ a { color: #0462c1; text-decoration: underline; }
     font-weight: bold;
     color: #1f3863;
     text-transform: uppercase;
-    margin-top: 6pt;
+    margin-top: 12pt;
 }
-.sec-rule { border: none; border-top: 1px solid #999; margin: 1pt 0 3pt 0; }
+.sec-rule { border: none; border-top: 1px solid #999; margin: 1pt 0 6pt 0; }
 
 .row { display: flex; justify-content: space-between; align-items: baseline; }
 .row-right { text-align: right; white-space: nowrap; padding-left: 8pt; flex-shrink: 0; }
 
 .entry { margin-bottom: 3pt; }
+.row + .row { margin-top: 2pt; }
 .title { font-size: 10.5pt; font-weight: bold; }
 .date { font-size: 10pt; font-weight: bold; font-style: italic; }
 .sub { font-style: italic; color: #333; }
@@ -103,13 +104,13 @@ li {
 li::before {
     content: "\\25CF";
     position: absolute;
-    left: 0.27in;
-    top: 0.05em;
+    left: 0.25in;
+    top: 0;
     font-family: Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;
-    font-size: 8pt;
+    font-size: 10pt;
 }
 
-.skills-block div { margin-bottom: 1pt; }
+.skills-block div { margin-bottom: 3pt; }
 `;
 
 function bullets(hl) {
